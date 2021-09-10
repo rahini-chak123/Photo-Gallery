@@ -1,0 +1,96 @@
+ "
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <title> Photo Gallery</title>
+     <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     <ul class="menu1">
+         <li class="links"><a href="#home">Home</a></li>
+         <li class="links"><a href="#Grids">Grid View</a></li>
+         <li class="links"><a href="#Slides">Slide View</a></li>
+     </ul>
+ </head>
+
+ <body>
+     <div class="container">
+         <section id="app">
+             <h1> Flowers</h1>
+             <img src="https://cdn2.hubspot.net/hubfs/4781875/Imported_Blog_Media/Marigold.png">
+             <div class="line"></div>
+         </section>
+
+
+         <h2>Grid view</h2>
+         <div id="myCarousel" class="carousel slide">
+             <div class="carousel-inner">
+                 <div class="item active">
+                     <center>
+                         <a href="#" target="_blank">
+                             <img src="https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="img-responsive">
+                         </a>
+                         <div class="carousel-content">
+                             <p>Pink flower</p>
+                         </div>
+                     </center>
+                 </div>
+                 <div class="item">
+                     <center>
+                         <a href="#" target="_blank">
+                             <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg" class="img-responsive">
+                         </a>
+                         <div class="carousel-content">
+                             <p>Maguerite (white flower)</p>
+                         </div>
+                     </center>
+                 </div>
+             </div>
+             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                 <span class="glyphicon glyphicon-chevron-left"></span>
+             </a>
+             <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                 <span class="glyphicon glyphicon-chevron-right"></span>
+             </a>
+         </div>
+         <h2>Slide view</h2>
+         <div id="myCarouse2" class="carousel slide">
+             <div class="carousel-inner">
+                 <div class="item active">
+                     <center>
+                         <a href="#" target="_blank">
+                             <img src="chat_app.png" class="img-responsive">
+                         </a>
+                         <div class="carousel-content">
+                             <p>Chat app</p>
+                         </div>
+                     </center>
+                 </div>
+                 <div class="item">
+
+                     <center>
+                         <a href="#" target="_blank">
+                             <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_prodm/products/p-blue-beauty-flower-box-139964-m.jpg" class="img-responsive">
+                         </a>
+                         <div class="carousel-content">
+                             <p>Blue Beauty</p>
+                         </div>
+                     </center>
+                 </div>
+             </div>
+             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                 <span class="glyphicon glyphicon-chevron-left"></span>
+             </a>
+             <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                 <span class="glyphicon glyphicon-chevron-right"></span>
+             </a>
+
+         </div>
+     </div>
+
+ </body>
+
+ </html>
